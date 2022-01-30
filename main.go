@@ -134,6 +134,8 @@ func main() {
         version: %s
 	`, VERSION)
 
+	// test
+
 	apps := configure.Applications{}
 	configure.Config.UnmarshalKey("server", &apps)
 	for _, app := range apps {
